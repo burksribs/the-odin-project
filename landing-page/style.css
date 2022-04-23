@@ -1,0 +1,172 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.header-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: #1F2937;
+    color: white;
+}
+
+.header-container .header .logo p {
+    font-size: 24px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.header-container .header, .header-container .section{
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+}
+
+.header-container .header {
+    gap: 280px;
+    padding-top: 20px;
+}
+
+.header-container .section .site-info {
+    width: 300px;
+}
+
+.header-container .section .site-info h1 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.header-container .section .site-info p{
+    font-size: 12px;
+}
+
+.header-container .section .site-info button, .sign-section button{
+    color: white;
+    background: #3882F6;
+    font-weight: 800;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 7px;
+    margin-top: 15px;
+}
+
+.header-container .section .image p
+{
+    padding: 100px 150px;
+    background: #444;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+ul li a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.information {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 120px;
+}
+
+.information h1 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    margin: 30px;
+}
+
+.card-container {
+    display: flex;
+    align-items: center;
+}
+
+
+.card-container .card-info {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    gap: 15px;
+    text-align: center;
+    justify-content: space-around;
+    margin: 5px 20px;
+}
+.card-container .card-info .box {
+    border: 2px blue solid;
+    border-radius: 10px;
+    width: 200px;
+    height: 200px;
+}
+
+.quote-section {
+    background: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 150px 215px;
+}
+
+.quote-section em {
+    font-size: 36px;
+    font-weight: 100;
+    color: #1F2937;
+    margin-bottom: 30px;
+}
+
+.quote-section p {
+    align-self: flex-end;
+    font-size: 24px;
+    font-weight: 900;
+    color: #1f2937;
+    margin-right: 50px;
+}
+
+.sign-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 180px;
+}
+
+.sign-container button {
+    border: 2px solid white;
+    margin-bottom: 10px;
+}
+
+.sign-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    background: #3882F6;
+    width: 70%;
+    padding: 20px 60px;
+    border-radius: 7px;
+    margin-top: 15px;
+}
+
+.sign-container .sign p {
+    font-size: 12px;
+    
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #1F2937;
+    color: white;
+    padding: 20px;
+    font-size: 12px;
+}
