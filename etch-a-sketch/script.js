@@ -1,6 +1,7 @@
 const container = document.querySelector('.container');
 const black = document.querySelector('#black');
 const reset = document.querySelector('#reset');
+const shader = document.querySelector('#shader');
 const rgb = document.querySelector('#rgb');
 const slider = document.querySelector('#slider');
 const value = document.querySelector('.value');
@@ -13,12 +14,27 @@ slider.addEventListener('input', () => {
 
 black.addEventListener('click', () => {
     let cells = document.querySelectorAll('.cell');
-    Array.from(cells).forEach(cell => cell.addEventListener('mouseenter', () => cell.style.backgroundColor = 'black'));
+    Array.from(cells).forEach(cell => 
+        cell.addEventListener('mouseenter', () => 
+            cell.style.backgroundColor = 'black'));
 });
 
 rgb.addEventListener('click', () => {
     let cells = document.querySelectorAll('.cell');
-    Array.from(cells).forEach(cell => cell.addEventListener('mouseenter', () => cell.style.backgroundColor = randomColor()));
+    Array.from(cells).forEach(cell => 
+        cell.addEventListener('mouseenter', () => 
+            cell.style.backgroundColor = randomColor()));
+});
+
+shader.addEventListener('click', () => {
+    let cells = document.querySelectorAll('.cell');
+    Array.from(cells).forEach(cell => {
+        let s = 255;
+        cell.addEventListener('mouseenter', () => {
+            s -= 17;
+            cell.style.backgroundColor = 'rgb('+s+','+s+','+s+')';
+        })
+    });
 });
 
 reset.addEventListener('click', () => {

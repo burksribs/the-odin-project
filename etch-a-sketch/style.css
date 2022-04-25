@@ -2,13 +2,14 @@ body{
     background-color: #ddd;
 }
 .container {
-    height: 500px;
-    width: 500px;
+    height: 600px;
+    width: 600px;
     margin: 0 auto;
-    border: 1px solid #000;
+    border: 1px solid #999;
 }
 .cell {
-    border: 1px solid #000;
+    border: 1px solid #999;
+    background-color: white;
 }
 
 h1 {
