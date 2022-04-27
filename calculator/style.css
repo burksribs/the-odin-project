@@ -18,17 +18,6 @@ body{
     align-items: center;
 }
 
-.btn {
-    padding: 20px;
-    width: 120px;
-    height: 70px;
-    flex-grow: 1;
-    background-color: rgb(117, 117, 117);
-    color: white;
-    font-size: 20px;
-    font-weight: bold;
-
-}
 
 #del, #clear{
     order: 2;
@@ -46,14 +35,43 @@ body{
     padding-right: 5px;
 }
 
+.btn {
+    padding: 20px;
+    width: 120px;
+    height: 70px;
+    flex-grow: 1;
+    background-color: rgb(117, 117, 117);
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
 .buttons{
     border-top: 2px solid #fff;
     margin: 0 auto;
     padding: 10px;
 }
 
+.btn:hover{
+    background-color: rgb(75, 75, 75);
+}
+
 .clr {
-    background-color: tomato;
+    background-color: rgb(196, 53, 28);
+}
+
+.clr:hover{
+    background-color: rgb(146, 16, 16);
+}
+
+
+.equal {
+    background-color: green;
+}
+
+.equal:hover {
+    background-color: rgb(91, 175, 91);
 }
 
 .expression {
