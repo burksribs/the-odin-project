@@ -1,0 +1,162 @@
+@font-face {
+    font-family: NorseBold;
+    src: url(fonts/Norse-Bold.otf);
+}
+
+
+body {
+    background-color: #555;
+    font-family: 'Times New Roman', Times, serif;
+    height: 100%;
+}
+
+.page-container {
+    max-width: 900px;
+    min-width: 600px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.left-side {
+    height: 100vh;
+    width: 40%;
+    float: left;
+    background-image: url(images/halie-west-25xggax4bSA-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    color: white;
+    text-align: center;
+}
+
+.right-side {
+    height: 100vh;
+    width: 60%;
+    background-color: rgb(243, 243, 243);
+    float: right;
+}
+
+.logo-container {
+    width: 100%;
+    position: absolute;
+    top: 150px;
+    background-color: rgba(0, 0, 0, .5);
+    align-items: center;
+}
+
+.blok {
+    margin-right: 60px;
+    padding: 10px 0;
+}
+
+.logo-container img {
+    width: 70px;
+}
+.logo-container p {
+    display: inline;
+    top: 30px;
+    position: absolute;
+    font-family: NorseBold;
+    font-size: 50px;
+}
+
+#img-copy{
+    font-size: 10px;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    bottom: 20px;
+    text-align: center;
+}
+
+
+.description {
+     padding: 30px;
+     margin-top: 70px;
+     margin-right: 50px;
+     letter-spacing: 1px;
+     font-size: 18px;
+     font-weight: bold;
+     font-family: 'Times New Roman', Times, serif;
+}
+
+.description p {
+    padding: 10px 0px;
+}
+
+.form-container{
+    background-color: #fff;
+    padding: 30px;
+    padding-top: 20px;
+    margin-bottom: 10px;
+    box-shadow: 0 3px rgba(156, 156, 156, 0.5);
+}
+
+.form-container p {
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+.form-row {
+    display: flex;
+    padding: 10px 0;
+    gap: 30px;
+    font-size: 12px;
+}
+.col {
+    display: flex;
+    flex-direction: column;
+}
+
+.button-area {
+    padding: 0 30px;
+}
+
+.button-area button {
+    background-color: rgb(23, 119, 74);
+    color: white;
+    padding: 10px 30px;
+    border-radius: 10px;
+    font-weight: bold;
+    border: none;
+    margin-bottom: 20px;
+}
+
+.button-area button:hover {
+    background-color: rgb(26, 182, 96);
+    cursor: pointer;
+    
+}
+.button-area p {
+    font-size: 14px;
+}
+.button-area p a{
+    text-decoration: none;
+}
+
+.form-input {
+    box-sizing: border-box;
+    border: 1px solid #e5e7eb;
+    border-radius: 4px;
+    padding: 4px 8px;
+    width: 100%;
+    font-size: 1rem;
+    margin-right: 32px;
+}
+
+.form-input:focus {
+    border: 1px solid blue;
+    box-shadow: 2px 1px 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+#err-msg {
+    margin-top: 5px;
+    font-size: 8px;
+    color: red;
+}
+
+.form-input.error {
+    border: 1px solid red;
+}

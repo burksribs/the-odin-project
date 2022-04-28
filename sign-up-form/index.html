@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Sign-up Form</title>
+</head>
+<body>
+    <div class="page-container">
+        <div class="left-side">
+            <div class="logo-container">
+                <div class="blok">
+                    <img src="images/odin-lined.png">
+                    <p>ODIN</p>
+                </div>
+            </div>
+            <p id="img-copy">Photo by Halie West on Unsplash</p>
+        </div>
+        <div class="right-side">
+            <div class="content">
+                <div class="description">
+                    <p>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Incidunt, facere amet ipsa odio, dolores
+                        debitis ab quas illo, possimus vel ad iusto architecto obcaecati unde.
+                    </p>
+                    <p>Lorem ipsum dolor sit</p>
+                </div>
+
+                <form action="#" method="get">
+                    <div class="form-container">
+                        <p>Let's do this</p>
+                            <div class="form-row">
+                                <div class="col">
+                                    <label for="fname">FIRST NAME</label>
+                                    <input class="form-input" type="text" id="fname" name="fname">
+                                </div>
+                                <div class="col">
+                                    <label for="lname">LAST NAME</label>
+                                    <input class="form-input" type="text" id="lname" name="lname">
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="col">
+                                    <label for="email">EMAIL</label>
+                                    <input class="form-input" type="email" id="email" name="email">
+                                </div>
+                                <div class="col">
+                                    <label for="phone">PHONE NUMBER</label>
+                                    <input class="form-input" type="text" id="phone" name="phone">
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="col">
+                                    <label for="password">PASSWORD</label>
+                                    <input class="form-input error" type="password" id="password" name="password">
+                                    <p id="err-msg">*Passwords do not match</p>
+                                </div>
+                                <div class="col">
+                                    <label for="confirm-password error">CONFIRM PASSWORD</label>
+                                    <input class="form-input error" type="password" id="confirm-password" name="confirm-password">
+                                </div>
+                            </div>
+                    </div>
+
+                    <div class="button-area">
+                        <button type="submit">Create Account</button>
+                        <p>Already have an account? <a href="#">Log in</a></p>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
