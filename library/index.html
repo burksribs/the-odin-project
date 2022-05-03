@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="page-container">
+        <div class="header">
+            <h1>Library</h1>
+        </div>
+        <div class="books-content" id="books-content">
+
+        </div>
+        <div class="add-button">
+            <p id="add">+</p>
+        </div>
+    </div>
+    <div class="add-form">
+        <div class="add-content">
+            <h1>Add new book</h1>
+            <input type="text" id="title-input" placeholder="Title" required>
+            <input type="text" id="author-input" placeholder="Author" required>
+            <input type="number" id="pages-input" placeholder="Pages" required>
+            <div class="read-check">
+                <p>Have you read it?</p>
+                <input type="checkbox" id="read-input">
+            </div>
+            
+            <button>Add</button>
+            <p id="close">X</p>
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
